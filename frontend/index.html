@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raj Tailors</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Oswald:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="logo">RAJ TAILORS</div>
+        <div class="nav-links">
+            <a href="#">The Garrison</a>
+            <a href="#">Bespoke</a>
+            <a href="#">Ledger</a>
+        </div>
+        <div class="nav-action">
+            <a href="#" class="btn-primary">Book Appointment <span class="arrow">→</span></a>
+        </div>
+    </nav>
+
+    <!-- Scroll Video Canvas Section -->
+    <section class="video-container" id="video-container">
+        <canvas id="video-canvas"></canvas>
+        <div class="video-overlay-text fade-in">
+            <h1 class="display-headline">By Order of<br/><i class="elegant">Raj Tailors</i>.</h1>
+            <p class="body-text">Fine tailoring for the <i class="elegant">discerning</i> gentleman. Birmingham born, world renowned.</p>
+        </div>
+    </section>
+
+    <!-- Products Collection Section -->
+    <section class="collection-section">
+        <div class="collection-header fade-in">
+            <h2 class="display-headline">The Ledger</h2>
+            <div class="gold-line"></div>
+            <p class="label-text">EXCEPIONAL GARMENTS & GOODS</p>
+        </div>
+        
+        <div class="products-grid" id="products-grid">
+            <!-- Products will be injected here via JavaScript -->
+            <div class="loading-state">Fetching collection...</div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer fade-in">
+        <div class="footer-content">
+            <div class="logo">RAJ TAILORS</div>
+            <p class="body-text">Dressing gentlemen with <i class="elegant">authority</i> since 1919.</p>
+        </div>
+    </footer>
+
+    <!-- Product Detail Modal -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <div class="modal-image-container">
+                    <img id="modal-image" src="" alt="Product Image">
+                </div>
+                <div class="modal-info">
+                    <h2 id="modal-title" class="display-headline"></h2>
+                    <div class="gold-line"></div>
+                    <p id="modal-desc" class="body-text"></p>
+                    <p id="modal-price" class="product-price"></p>
+                    <a id="modal-whatsapp" href="#" target="_blank" class="btn-whatsapp">Chat on WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

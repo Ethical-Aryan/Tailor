@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Database
+database.db
+
+# Frontend
+frontend/uploads/*
+!frontend/uploads/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
