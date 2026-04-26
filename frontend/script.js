@@ -154,7 +154,7 @@ document.addEventListener('DOMContentLoaded', () => {
             productsGrid.innerHTML = ''; // Clear loading state
 
             const shopDetails = data.shop_details || {};
-            const whatsappNumber = shopDetails.whatsapp_number || '919999999999';
+            const whatsappNumber = shopDetails.whatsapp_number || '919769215219';
             const shopName = shopDetails.shop_name || 'Raj Tailors';
 
             if (data.products && data.products.length > 0) {

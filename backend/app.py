@@ -25,7 +25,7 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 SHOP_DETAILS = {
-    'whatsapp_number': '917045464243', # Replace with real number
+    'whatsapp_number': '919769215219', # Updated real number
     'shop_name': 'Raj Tailors'
 }
 
